@@ -50,6 +50,6 @@ long e = 3000000L;
                 double DenisCompare = (DenisUp1 * 12);
         System.out.println("Прибыть в ЗП Дениса за год " + DenisCompare + " руб.");
         double KrissCompare = (KrissUp1 * 12);
-        System.out.println("Прибыть в ЗП Кристины за год " + MashaСompare + " руб.");
+        System.out.println("Прибыть в ЗП Кристины за год " + MashaСompare + " руб");
     }
 }
