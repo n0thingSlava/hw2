@@ -33,10 +33,23 @@ long e = 3000000L;
         int overLoss = ( spendDay1 + spendDay2) % loseWeight ;
         System.out.println("В среднем потребуется " + overLoss + " дней!" );
 //Задание №5
-
-
-
-
-
+        var Masha = 67760;
+        var Denis = 83690;
+        var Kriss = 76230;
+        double MashaUp1 = (Masha * 0.1);
+        double MashaUp = (Masha * 0.1) + Masha;
+        System.out.println("ЗП Маше после повышения " + MashaUp + " руб.");
+        double DenisUp = (Denis * 0.1) + Denis;
+        double DenisUp1 = (Denis * 0.1);
+        System.out.println("ЗП Дениса после повышения " + DenisUp + " руб.");
+        double KrissUp1 = (Kriss * 0.1);
+        double KrissUp = (Kriss * 0.1) + Kriss;
+        System.out.println("ЗП Кристины после повышения " + KrissUp + " руб.");
+        double MashaСompare = (MashaUp1 * 12);
+        System.out.println("Прибыть в ЗП Маши за год " + MashaСompare + " руб.");
+                double DenisCompare = (DenisUp1 * 12);
+        System.out.println("Прибыть в ЗП Дениса за год " + DenisCompare + " руб.");
+        double KrissCompare = (KrissUp1 * 12);
+        System.out.println("Прибыть в ЗП Кристины за год " + MashaСompare + " руб.");
     }
 }
