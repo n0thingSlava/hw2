@@ -32,6 +32,7 @@ long e = 3000000L;
         System.out.println("Худеть по 500 грамм потребуется " + spendDay2 + " дней!");
         int overLoss = ( spendDay1 + spendDay2) % loseWeight ;
         System.out.println("В среднем потребуется " + overLoss + " дней!" );
+//Задание №5
 
 
 
