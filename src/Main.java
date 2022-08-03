@@ -23,15 +23,17 @@ long e = 3000000L;
         float inKg = inGramm / 1000f ;
         System.out.println("Вес " + inKg + " кг");
 //Задача №4
-        int loseWeight = 7000 ;
-        int one = 250;
-        int spendDay1 = loseWeight / one;
-        System.out.println("Худеть по 250 грамм потребуется " + spendDay1 + " дней!");
-        int two = 500 ;
-        int spendDay2 = loseWeight / two ;
-        System.out.println("Худеть по 500 грамм потребуется " + spendDay2 + " дней!");
-        int overLoss = ( spendDay1 + spendDay2) % loseWeight ;
-        System.out.println("В среднем потребуется " + overLoss + " дней!" );
+        {
+            int loseWeight = 7000;
+            int one = 250;
+            int spendDay1 = loseWeight / one;
+            System.out.println("Худеть по 250 грамм потребуется " + spendDay1 + " дней!");
+            int two = 500;
+            int spendDay2 = loseWeight / two;
+            System.out.println("Худеть по 500 грамм потребуется " + spendDay2 + " дней!");
+            int overLoss = (int) ((spendDay1 + spendDay2) / (2 * 1.0));
+            System.out.println("В среднем потребуется " + overLoss + " дней!");
+        }
 //Задание №5
         var Masha = 67760;
         var Denis = 83690;
